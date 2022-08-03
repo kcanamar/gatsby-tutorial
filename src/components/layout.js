@@ -20,7 +20,7 @@ export default function Layout({ pageTitle, children }) {
             }
         }
     `)
-    console.log(data)
+
     return (
         <div className={ container }>
             <title>{pageTitle} | {data.site.siteMetadata.title}</title>
